@@ -94,6 +94,7 @@
         letter-spacing: 2px;
         font-size: 30px;
         margin-bottom: 8px;
+        text-align: left;
     }
 
     .quienes p {
@@ -112,13 +113,13 @@
 
     /* --- SECCIÓN SERVICIOS --- */
     .servicios {
-      background-color: #cba4ff;
+      background-color: #3AA9B9;
       padding: 60px 8%;
       text-align: center;
     }
 
     .servicios h2 {
-        color: #ff66b3;
+        color: black;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 30px;
@@ -164,7 +165,7 @@
 
     /* --- SECCIÓN POR QUÉ VISITARNOS --- */
     .visitanos {
-      background-color: #ffcce6;
+      background-color: white;
       padding: 50px 10%;
       display: flex;
       flex-wrap: wrap;
@@ -182,7 +183,7 @@
     }
 
     .visitanos h2 {
-        color: #ff66b3;
+        color: #00b3a1;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 30px;
@@ -693,4 +694,5 @@
     }
 
 }
+
 
