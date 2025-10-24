@@ -5,21 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Betty Pet Grooming</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+    // 1. Obtener los elementos
+    const hamburger = document.querySelector('.hamburger-menu');
+    const navMenu = document.querySelector('.nav-menu');
+
+    // 2. Agregar un "escuchador" de eventos al botón
+    hamburger.addEventListener('click', () => {
+        // 3. Alternar la clase 'active' en el menú (para mostrarlo/ocultarlo)
+        navMenu.classList.toggle('active');
+
+        // Opcional: También puedes alternar una clase en el botón para animar la X
+        hamburger.classList.toggle('is-open'); 
+    });
+});
+    </script>
 </head>
 <body>
     <header>
     <div class="logo">
       <img src="imagenes/logo3.0.png" alt="Logo Petty Pet Grooming">
     </div>
-    <nav>
+    <nav class="nav-menu">
       <a href="index.html">INICIO</a>
       <a href="servicios.html">SERVICIOS</a>
       <a href="galeria.html">GALERÍA</a>
       <a href="sedes.html">SEDES</a>
     </nav>
 <button class="btn-contacto"><a href="contactanos.html">CONTACTANOS</a></button>
-  </header>
 
+<button class="hamburger-menu" aria-label="Abrir menú de navegación">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+
+  </header>
   <section id="sede-principal" class="sede-info principal-color">
         <div class="sede-details">
             <h2>🥇 Sede Principal: Callao</h2>
@@ -86,3 +109,4 @@ Bellavista, Callao
 </body>
 
 </html>
+
