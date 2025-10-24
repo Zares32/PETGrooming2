@@ -20,6 +20,7 @@
       background-color: white;
       border-bottom: 3px solid #eee;
       flex-wrap: wrap;
+      border-bottom: #00d9c3 solid 2px;
     }
 
     .logo {
@@ -692,3 +693,4 @@
     }
 
 }
+
