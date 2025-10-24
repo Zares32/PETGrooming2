@@ -197,7 +197,7 @@
 
     /* --- FOOTER --- */
     footer {
-      background-color: #cba4ff;
+      background-color: #00d9c3;
       color: #333;
       display: flex;
       flex-wrap: wrap;
@@ -690,4 +690,5 @@
     .contact-flex-container {
         flex-direction: row; /* Diseño de lado a lado en escritorio */
     }
+
 }
