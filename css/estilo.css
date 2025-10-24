@@ -74,7 +74,7 @@
 
     /* --- SECCIÓN QUIENES SOMOS --- */
     .quienes {
-      background-color: #ffcce6;
+      background-color: white;
       padding: 50px 10%;
       display: flex;
       flex-wrap: wrap;
@@ -89,7 +89,7 @@
     }
 
     .quienes h2 {
-        color: #ff66b3;
+        color: #3AA9B9;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 30px;
@@ -694,6 +694,7 @@
     }
 
 }
+
 
 
 
